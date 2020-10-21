@@ -1,6 +1,3 @@
-# create-react-app-typescript-template
-Create React App TypeScript template
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
