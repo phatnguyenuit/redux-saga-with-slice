@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import store from './states/store';
+
+(window as any).store = store;
+
+store.subscribe(() => console.log('state', store.getState()));
 
 ReactDOM.render(
   <React.StrictMode>
